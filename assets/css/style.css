@@ -21,6 +21,21 @@
     font-weight: 700;
 }
 
+.modal-dialog{
+    display: flex;
+    justify-content: center;
+}
+
+.modal-content{
+    width: 95vw;
+    height: 95vh;
+}
+
+iframe{
+    width: 85vw;
+    height: 75vh;
+}
+
 /* Variables */
 :root {
     --c-brand: #FF0061;
