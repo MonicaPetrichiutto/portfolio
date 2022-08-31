@@ -154,10 +154,30 @@ img {
     box-shadow: none;
 }
 
+.navbar-brand img,
+.footer-top img {
+    width: 60px;
+}
+
 @media (min-width: 992px) {
     .navbar-expand-lg .navbar-nav .nav-link {
         padding-right: 16px;
         padding-left: 16px;
+    }
+}
+
+@media (max-width: 778px) {
+    .row.title{
+        padding-top: 80px;
+    }
+}
+
+@media (max-width: 576px) {
+    .navbar{
+        background-color: #fff!important;
+    }
+    #home h1{
+        padding-top: 150px;
     }
 }
 
